@@ -3,400 +3,373 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Organization Portfolio</title>
+    <title>Zekra Org.</title>
     <meta
       name="description"
       content="Professional portfolio showcasing our organization's projects and achievements"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="icon"
+      type="image/png"
+      href="images/favicon/favicon-96x96.png"
+      sizes="96x96"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
     />
-    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+    <meta name="apple-mobile-web-app-title" content="Zekra" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
   </head>
 
   <body>
+    <!-- Header -->
     <header class="header">
-      <div class="container">
-        <div class="header__content">
-          <div class="logo" data-aos="fade-right">
-            <h1>Exploit Experts<span>.</span></h1>
-          </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#home" class="nav__link active">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="#about" class="nav__link">About</a>
-              </li>
-              <li class="nav__item">
-                <a href="#services" class="nav__link">Services</a>
-              </li>
-              <li class="nav__item">
-                <a href="#portfolio" class="nav__link">Portfolio</a>
-              </li>
-              <li class="nav__item">
-                <a href="#team" class="nav__link">Team</a>
-              </li>
-              <li class="nav__item">
-                <a href="#contact" class="nav__link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="header__toggle">
-            <div class="hamburger"><span></span></div>
-          </div>
-        </div>
-      </div>
+      <nav class="nav">
+        <div class="logo">ZEKRA</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+        </ul>
+      </nav>
     </header>
-    <section id="about" class="about section">
-      <div class="container">
-        <div class="section__header" data-aos="fade-up">
-          <h2 class="section__title">About Us</h2>
-          <p class="section__subtitle">Learn about our academic organization</p>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img
+          src="images/white.svg"
+          alt="ZEKRA Logo"
+          class="hero-logo"
+          width="180"
+          height="180"
+        />
+
+        <h1>ZEKRA</h1>
+        <p class="subtitle">
+          Zeal for Engineering, Knowledge, Research & Advancement
+        </p>
+        <div class="typing-text">
+          🐉 Building the future with passion and precision 🐉
         </div>
-        <div class="about__content">
-          <div class="about__text" data-aos="fade-right">
-            <p>
-              We are a GitHub organization for students pursuing a Bachelor's
-              degree in Information Systems. Our collaborative platform
-              showcases college projects that demonstrate our academic growth
-              and technical skills.
-            </p>
-            <p>
-              We use the best software engineering practices, combining agile
-              methodologies such as Kanban and Scrum with cutting-edge
-              technologies such as Spring Framework and Angular. Our portfolio
-              ranges from web applications and RESTful APIs to complex data
-              integration systems. We always seek to optimize the performance
-              and security of our solutions, using relational and non-relational
-              databases.
-            </p>
-            <div class="stats">
-              <div class="stat-item" data-counter="4">
-                <h3>4+</h3>
-                <p>Projects Completed</p>
-              </div>
-              <div class="stat-item" data-counter="10">
-                <h3>10+</h3>
-                <p>Technologies Used</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <a href="#about" class="cta-button">Explore Our Work</a>
       </div>
     </section>
 
-    <section id="services" class="services section bg-light">
-      <div class="container">
-        <div class="section__header" data-aos="fade-up">
-          <h2 class="section__title">Our Services</h2>
-          <p class="section__subtitle">What we can do</p>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>📃 About ZEKRA</h2>
+
+      <div class="about-content">
+        <div class="about-text">
+          <h3>🇧🇷 Português</h3>
+          <p>
+            A ZEKRA é uma organização de tecnologia movida por paixão,
+            disciplina e visão. Nosso foco é a criação de soluções escaláveis,
+            modulares e sustentáveis.
+          </p>
+          <br />
+          <p>
+            Utilizamos stacks modernas como <strong>Java com Spring</strong>,
+            <strong>Node.js</strong>, <strong>Angular</strong>,
+            <strong>Docker</strong>, e bancos relacionais/não-relacionais. Somos
+            motivados pela sede de avanço técnico, pesquisa constante e
+            construção consciente.
+          </p>
         </div>
-        <div class="services__grid">
-          <div class="service-card" data-aos="fade-up">
-            <div class="service-card__icon">
-              <i class="fas fa-laptop-code"></i>
-            </div>
-            <h3 class="service-card__title">Web Development</h3>
-            <p class="service-card__description">
-              Custom websites and web applications built with modern
-              technologies including Angular and React frameworks.
-            </p>
-          </div>
-          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-card__icon">
-              <i class="fab fa-java"></i>
-            </div>
-            <h3 class="service-card__title">Spring Development</h3>
-            <p class="service-card__description">
-              RESTful APIs and backend services using Spring Framework, Spring
-              Boot, and related technologies for robust enterprise applications.
-            </p>
-          </div>
+
+        <div class="about-text">
+          <h3>🇺🇸 English</h3>
+          <p>
+            ZEKRA is a technology organization driven by passion, discipline,
+            and vision. We focus on creating scalable, modular, and sustainable
+            solutions.
+          </p>
+          <br />
+          <p>
+            Using modern stacks like <strong>Java with Spring</strong>,
+            <strong>Node.js</strong>, <strong>Angular</strong>,
+            <strong>Docker</strong>, and relational/non-relational databases. We
+            are fueled by the zeal for technical advancement, continuous
+            research, and conscious building.
+          </p>
         </div>
       </div>
-    </section>
 
-    <section id="portfolio" class="portfolio section">
-      <div class="container">
-        <div class="section__header" data-aos="fade-up">
-          <h2 class="section__title">Our Portfolio</h2>
-          <p class="section__subtitle">College projects we've developed</p>
-        </div>
-        <div class="portfolio__filter" data-aos="fade-up">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="spring">Spring</button>
-          <button class="filter-btn" data-filter="web">Web</button>
-          <button class="filter-btn" data-filter="docs">Documentation</button>
-        </div>
-        <div class="portfolio__grid">
-          <div class="portfolio-item" data-category="spring" data-aos="fade-up">
-            <div class="portfolio-item__image">
-              <img
-                src="https://repository-images.githubusercontent.com/611053525/fc422898-f73f-43af-8bf9-db61eb07ed87"
-                alt="Votify API"
-              />
-            </div>
-            <div class="portfolio-item__overlay">
-              <h3>Votify API</h3>
-              <p>Spring REST API</p>
-              <a
-                href="https://github.com/Exploit-Experts/Votify-Api"
-                class="portfolio-item__link"
-                target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
-          </div>
-          <div
-            class="portfolio-item"
-            data-category="docs"
-            data-aos="fade-up"
-            data-aos-delay="100"
+      <!-- Philosophy -->
+      <div class="philosophy">
+        <blockquote>
+          "ZEKRA = Zeal for Engineering, Knowledge, Research & Advancement"
+        </blockquote>
+        <p>
+          <em
+            >We are a symbol of order, power, and clarity — as represented by
+            our dragon logo.</em
           >
-            <div class="portfolio-item__image">
-              <img
-                src="https://exploit-experts.github.io/Docs-RickAndMorty/assets/images/wp-dark-6259b2ac6ca12643b00cbfbc635050cf.png"
-                alt="Rick and Morty Docs"
-              />
-            </div>
-            <div class="portfolio-item__overlay">
-              <h3>Rick and Morty Documentation</h3>
-              <p>Docusaurus (MD & React)</p>
-              <a
-                href="https://github.com/Exploit-Experts/Docs-RickAndMorty"
-                class="portfolio-item__link"
-                target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
+        </p>
+
+        <div class="mission-grid">
+          <div class="mission-item">
+            <h4>🔥 Passion-Driven Development</h4>
+            <p>Every line of code is written with purpose and dedication</p>
           </div>
-          <div
-            class="portfolio-item"
-            data-category="web spring"
-            data-aos="fade-up"
-            data-aos-delay="200"
+          <div class="mission-item">
+            <h4>🏗️ Architectural Excellence</h4>
+            <p>Building robust, scalable, and maintainable systems</p>
+          </div>
+          <div class="mission-item">
+            <h4>🌱 Continuous Growth</h4>
+            <p>Constantly learning and evolving with emerging technologies</p>
+          </div>
+          <div class="mission-item">
+            <h4>🤝 Collaborative Innovation</h4>
+            <p>Fostering teamwork and knowledge sharing</p>
+          </div>
+          <div class="mission-item">
+            <h4>💡 Problem Solving</h4>
+            <p>Creating elegant solutions for complex challenges</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>🚀 Featured Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>🎬 Rick and Morty Database</h3>
+            <span class="project-status">Active</span>
+          </div>
+          <p class="project-description">
+            Full-stack application for Rick and Morty series data management
+            with comprehensive character, episode, and location information.
+            Features modern API design and interactive frontend.
+          </p>
+
+          <ul class="project-features">
+            <li>RESTful API with Spring Boot and Java</li>
+            <li>Interactive Angular TypeScript client</li>
+            <li>Complete project documentation with Docusaurus</li>
+            <li>Character, episode, and location data management</li>
+          </ul>
+
+          <div class="tech-stack">
+            <span class="tech-badge">Java</span>
+            <span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">Angular</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">Docusaurus</span>
+            <span class="tech-badge">REST API</span>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/Exploit-Experts/RickAndMorty-Spring-API"
+              class="project-link primary"
+              target="_blank"
+              >🔧 Backend API</a
+            >
+            <a
+              href="https://github.com/Exploit-Experts/RickAndMorthy-client"
+              class="project-link"
+              target="_blank"
+              >🎨 Frontend Client</a
+            >
+            <a
+              href="https://github.com/Exploit-Experts/Docs-RickAndMorty"
+              class="project-link"
+              target="_blank"
+              >📚 Documentation</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>🗳️ Votify System</h3>
+            <span class="project-status">Active</span>
+          </div>
+          <p class="project-description">
+            Modern voting platform for creating and managing polls with
+            real-time results, user authentication, and comprehensive voting
+            session management.
+          </p>
+
+          <ul class="project-features">
+            <li>Real-time voting with live results</li>
+            <li>User authentication and authorization</li>
+            <li>Responsive Angular web application</li>
+            <li>REST API for voting session management</li>
+          </ul>
+
+          <div class="tech-stack">
+            <span class="tech-badge">Java</span>
+            <span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">Angular</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">REST API</span>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/Exploit-Experts/Votify-Api"
+              class="project-link primary"
+              target="_blank"
+              >🔧 Backend API</a
+            >
+            <a
+              href="https://github.com/Exploit-Experts/Votify-Client"
+              class="project-link"
+              target="_blank"
+              >🎨 Frontend Client</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>🚗 Leasing System</h3>
+            <span class="project-status">Active</span>
+          </div>
+          <p class="project-description">
+            Comprehensive vehicle rental management platform with user
+            management, vehicle reservations, and lease agreement handling for
+            efficient fleet management.
+          </p>
+
+          <ul class="project-features">
+            <li>Complete user management system</li>
+            <li>Vehicle inventory and reservation system</li>
+            <li>Automated lease agreement generation</li>
+            <li>Fleet management dashboard</li>
+          </ul>
+
+          <div class="tech-stack">
+            <span class="tech-badge">Java</span>
+            <span class="tech-badge">Spring</span>
+            <span class="tech-badge">ThymeLeaf</span>
+            <span class="tech-badge">MySQL</span>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/Exploit-Experts/leasing-system"
+              class="project-link primary"
+              target="_blank"
+              >📂 Repository</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+      <h2>🧙‍♂️ Team</h2>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <img
+            src="https://avatars.githubusercontent.com/u/114788642?v=4"
+            alt="Bruno Magno"
+            class="member-avatar"
+          />
+          <h3 class="member-name">Bruno Magno</h3>
+          <p>Full-Stack Developer</p>
+          <a
+            href="https://github.com/brunoliratm"
+            class="github-link"
+            target="_blank"
+            >@brunoliratm</a
           >
-            <div class="portfolio-item__image">
-              <img
-                src="https://repository-images.githubusercontent.com/849893236/9815abd9-3953-4534-9d2e-b25f4886bb71"
-                alt="Leasing System"
-              />
-            </div>
-            <div class="portfolio-item__overlay">
-              <h3>Leasing System</h3>
-              <p>Spring & Thymeleaf</p>
-              <a
-                href="https://github.com/Exploit-Experts/leasing-system"
-                class="portfolio-item__link"
-                target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
-          </div>
-          <div
-            class="portfolio-item"
-            data-category="spring"
-            data-aos="fade-up"
-            data-aos-delay="300"
+        </div>
+
+        <div class="team-member">
+          <img
+            src="https://avatars.githubusercontent.com/u/127964717?v=4"
+            alt="Paulo de Araujo"
+            class="member-avatar"
+          />
+          <h3 class="member-name">Paulo de Araujo</h3>
+          <p>Full-Stack Developer</p>
+          <a
+            href="https://github.com/Paulo-Araujo-Jr"
+            class="github-link"
+            target="_blank"
+            >@Paulo-Araujo-Jr</a
           >
-            <div class="portfolio-item__image">
-              <img
-                src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-                alt="Rick and Morty Spring API"
-              />
-            </div>
-            <div class="portfolio-item__overlay">
-              <h3>Rick and Morty API</h3>
-              <p>Spring REST API</p>
-              <a
-                href="https://github.com/Exploit-Experts/RickAndMorty-Spring-API"
-                class="portfolio-item__link"
-                target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
+        </div>
+
+        <div class="team-member">
+          <img
+            src="https://avatars.githubusercontent.com/u/126338859?v=4"
+            alt="Marcelo Mesquita"
+            class="member-avatar"
+          />
+          <h3 class="member-name">Marcelo Mesquita</h3>
+          <p>Full-Stack Developer</p>
+          <a
+            href="https://github.com/MrMesquita"
+            class="github-link"
+            target="_blank"
+            >@MrMesquita</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="section">
+      <h2>💻 Technologies</h2>
+
+      <div class="tech-grid">
+        <div class="tech-category">
+          <h3>Development Stack</h3>
+          <div class="tech-icons">
+            <img
+              src="https://skill-icons-v2.vercel.app/api/icons?i=java,spring,typescript,javascript,angular,nodejs&theme=dark"
+              alt="Development Stack"
+            />
+            <img
+              src="https://skill-icons-v2.vercel.app/api/icons?i=mysql,postgresql,docker&theme=dark"
+              alt="Development Stack"
+            />
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3>Tools & Environment</h3>
+          <div class="tech-icons">
+            <img
+              src="https://skill-icons-v2.vercel.app/api/icons?i=ubuntu,windows,vscode,idea,postman&theme=dark"
+              alt="Tools & Environment"
+            />
+            <img
+              src="https://skill-icons-v2.vercel.app/api/icons?i=jira,figma,git,obsidian&theme=dark"
+              alt="Tools & Environment"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section id="team" class="team section bg-light">
-      <div class="container">
-        <div class="section__header" data-aos="fade-up">
-          <h2 class="section__title">Our Team</h2>
-          <p class="section__subtitle">Meet the people behind our success</p>
-        </div>
-        <div class="team__grid">
-          <div class="team-member" data-aos="fade-up">
-            <div class="team-member__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/114788642?v=4"
-                alt="Bruno Magno"
-              />
-            </div>
-            <div class="team-member__info">
-              <h3>Bruno Magno</h3>
-              <p>Angular & Spring Developer</p>
-              <div class="team-member__social">
-                <a href="https://www.linkedin.com/in/brunomagnotm/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a href="https://github.com/brunoliratm"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/127964717?v=4"
-                alt="Paulo de Araujo"
-              />
-            </div>
-            <div class="team-member__info">
-              <h3>Paulo de Araujo</h3>
-              <p>Spring Developer</p>
-              <div class="team-member__social">
-                <a href="https://www.linkedin.com/in/paulo-araujo-dev/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a href="https://github.com/Paulo-Araujo-Jr"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/126338859?v=4"
-                alt="Marcelo Mesquita"
-              />
-            </div>
-            <div class="team-member__info">
-              <h3>Marcelo Mesquita</h3>
-              <p>PM & Web Developer</p>
-              <div class="team-member__social">
-                <a href="https://www.linkedin.com/in/marcelo-g-mesquita/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a href="https://github.com/MrMesquita"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member" data-aos="fade-up" data-aos-delay="500">
-            <div class="team-member__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/126925371?v=4"
-                alt="Leandro Oliveira"
-              />
-            </div>
-            <div class="team-member__info">
-              <h3>Leandro Oliveira</h3>
-              <p>Java Developer</p>
-              <div class="team-member__social">
-                <a href="https://github.com/leandrouser"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/126990110?v=4"
-                alt="Jonathan Rocha"
-              />
-            </div>
-            <div class="team-member__info">
-              <h3>Jonathan Rocha</h3>
-              <p>Collaborator</p>
-              <div class="team-member__social">
-                <a href="https://github.com/Jonathanwsr"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-member" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/180599406?v=4"
-                alt="Klismans Nazário"
-              />
-            </div>
-            <div class="team-member__info">
-              <h3>Klismans Nazário</h3>
-              <p>Collaborator</p>
-              <div class="team-member__social">
-                <a
-                  href="https://www.linkedin.com/in/klismans-naz%C3%A1rio-9346b726a/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 ZEKRA Organization. All rights reserved.</p>
+      <p>Zeal for Engineering, Knowledge, Research & Advancement</p>
+    </footer>
 
-    <section id="contact" class="contact section">
-      <div class="container">
-        <div class="section__header" data-aos="fade-up">
-          <h2 class="section__title">Contact Us</h2>
-          <p class="section__subtitle">Get in touch with our team</p>
-        </div>
-        <div class="contact__content">
-          <div class="contact__info" data-aos="fade-right">
-            <div class="contact-item">
-              <div class="contact-item__icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="contact-item__content">
-                <h3>Email</h3>
-                <p>exploitexpertsmail@gmail.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="contact__info" data-aos="fade-">
-            <div class="contact-item">
-              <div class="contact-item__icon">
-                <i class="fab fa-github"></i>
-              </div>
-              <div class="contact-item__content">
-                <h3>GitHub</h3>
-                <p>
-                  <a href="https://github.com/orgs/Exploit-Experts"
-                    >Exploit-Experts</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="footer__bottom">
-      <p>&copy; 2025 Exploit Experts. All Rights Reserved.</p>
-    </div>
-
-    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
